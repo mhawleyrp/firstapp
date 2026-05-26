@@ -1,13 +1,10 @@
-import reactLogo from './assets/react.svg'
-import './App.css'
+import ModeToggler from "./ModeToggler.jsx";
+import './App.css';
 
 function App() {
   return (
-    <div className="app">
-      <img src={reactLogo} className="logo" alt="React logo" />
-      <h1>Hello, React!</h1>
-    </div>
-  )
+    <ModeToggler />
+  );
 }
 
-export default App
+export default App;
